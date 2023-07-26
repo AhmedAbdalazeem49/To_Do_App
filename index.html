@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Sweet alert css -->
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <!-- Sweet alert js -->
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <title>To Do App</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="add-task">
+        <input type="text" placeholder="Your Next Task" />
+        <span class="plus">+</span>
+      </div>
+      <div class="tasks-content">
+        <span class="no-tasks-message">No Tasks To Show</span>
+      </div>
+    </div>
+    <div class="task-stats">
+      <div class="tasks-count">Tasks <span>0</span></div>
+      <div class="completed-task">Completed <span>0</span></div>
+    </div>
+    <div class="all">
+      <span class="delete-all">
+        Delete All
+      </span>
+      <span class="finish-all">
+        Finish All
+      </span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
